@@ -5,9 +5,9 @@
  * @returns {Number}
  */
 const add = (a, b) => {
-  const result = a + b
-  return result
-}
+  const result = a + b;
+  return result;
+};
 
 /**
  * @description Method is used to substract two Numbers.
@@ -16,9 +16,15 @@ const add = (a, b) => {
  * @returns {Number}
  */
 const substract = (a, b) => {
-  const result = a - b
-  return result
-}
+  const result = a - b;
+  return result;
+};
 
-console.log(add(2, 90)) // 92
-console.log(substract(21, 10))
+const getUniqueNumber = () => {
+  const result = new Date().getTime();
+  return result;
+};
+
+console.log(add(2, 90)); // 92
+console.log(substract(21, 10));
+console.log(getUniqueNumber());
