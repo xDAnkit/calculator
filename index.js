@@ -22,10 +22,17 @@ const substract = (a, b) => {
 
 /**
  * @description Method to get unique number
+ * @param {Number} length
  * @returns
  */
-const getUniqueNumber = () => {
-  const result = new Date().getTime();
+const getUniqueNumber = (length = 5) => {
+  let result = "";
+  const characters = "ABCDEFGHJKMNPQRSTUVWXYZabcdefghjkmnpqrstuvwxyz0123456789";
+  const charactersLength = characters.length;
+  for (var i = 0; i < length; i++) {
+    result += characters.charAt(Math.floor(Math.random() * charactersLength));
+  }
+  result = new Date().getTime() + "-" + result;
   return result;
 };
 
