@@ -32,7 +32,7 @@ const getUniqueNumber = (length = 5) => {
   for (var i = 0; i < length; i++) {
     result += characters.charAt(Math.floor(Math.random() * charactersLength));
   }
-  result = new Date().getTime() + "-" + result;
+  result = `${new Date().getTime()}-${result}`;
   return result;
 };
 
