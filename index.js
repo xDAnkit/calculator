@@ -20,6 +20,10 @@ const substract = (a, b) => {
   return result;
 };
 
+/**
+ * @deprecated Method to get unique number
+ * @returns
+ */
 const getUniqueNumber = () => {
   const result = new Date().getTime();
   return result;
