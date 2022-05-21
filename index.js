@@ -21,7 +21,7 @@ const substract = (a, b) => {
 };
 
 /**
- * @deprecated Method to get unique number
+ * @description Method to get unique number
  * @returns
  */
 const getUniqueNumber = () => {
