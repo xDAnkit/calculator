@@ -1,1 +1,1 @@
-# This is a basic calculator application on JS
+# This is a basic calculator application on J.S
