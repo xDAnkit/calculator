@@ -1,1 +1,1 @@
-# This is a basic calculator application on JavaScript
+# This is a basic calculator application on JavaScript by Ankit.
